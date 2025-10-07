@@ -24,7 +24,6 @@ describe("pump", () => {
 
   const program = anchor.workspace.Pump as Program<Pump>;
 
-
   // custom setting 
   const user = Keypair.fromSecretKey(new Uint8Array(keys))
   const user2 = Keypair.fromSecretKey(new Uint8Array(key2))
@@ -213,7 +212,6 @@ describe("pump", () => {
         [Buffer.from(POOL_SEED_PREFIX), mint1.toBuffer()],
         program.programId
       )
-      
       
       const [liquidityProviderAccount] = PublicKey.findProgramAddressSync(
         [Buffer.from(LP_SEED_PREFIX), poolPda.toBuffer(), user.publicKey.toBuffer()],
