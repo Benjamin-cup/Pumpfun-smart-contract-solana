@@ -1,6 +1,6 @@
 ## Pump.fun clone: Pumpfun smart contract for pump.fun fork, implemented all main functionalities of pump fun.
 This pumpfun smart contract forked pump.fun, but it's developed to give basic understanding about pump fun. 
-To get whole part of smart contract and backend & frontend, feel free to reach out of me[ Telegram: https://t.me/erikerik116]
+To get whole part of smart contract and backend & frontend, feel free to reach out of me[ Telegram: https://t.me/SOLBenjaminCup]
 You can also get frontend and backend repository from my github.
 
 
